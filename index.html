@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"> <img src="logo.jpg" alt="Music"></li>
+            <li>Home</li>
+            <li>About</li>
+            <input type="text" placeholder="search">
+
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="sonList">
+            <h1>Best Music is Here</h1>
+            <div class="songItemContainer">
+                <div class="songItem">
+                    <img src="covers/1.jpg" alt="1">
+                    <span class="songName" >Deva Deva </span>
+                    <span class="songlistplay"> <span class="timestamp">06:14 <i id="0" class="far songItemPlay fa-play-circle"></i></span></span>
+
+                </div>
+                <div class="songItem">
+                    <img src="covers/2.jpg" alt="1">
+                    <span class="songName" >Kesariya </span>
+                    <span class="songlistplay"> <span class="timestamp">04:28 <i id="1" class="far songItemPlay fa-play-circle"></i></span></span>
+
+                </div>
+                <div class="songItem">
+                    <img src="covers/3.jpg" alt="1">
+                    <span class="songName" >Apna Bana Le </span>
+                    <span class="songlistplay"> <span class="timestamp">04:21 <i id="2" class="far songItemPlay fa-play-circle"></i></span></span>
+
+                </div>
+                <div class="songItem">
+                    <img src="covers/4.jpg" alt="1">
+                    <span class="songName" >Rasiya </span>
+                    <span class="songlistplay"> <span class="timestamp">04:25 <i id="3" class="far songItemPlay fa-play-circle"></i></span></span>
+
+                </div>
+                <div class="songItem">
+                    <img src="covers/5.jpg" alt="1">
+                    <span class="songName" >Teri Meri Gallan Hogi </span>
+                    <span class="songlistplay"> <span class="timestamp">03:50 <i id="4" class="far songItemPlay fa-play-circle"></i></span></span>
+
+                </div>
+                <div class="songItem">
+                    <img src="covers/6.jpg" alt="1">
+                    <span class="songName" >Aankhe  Meri Har Jagah </span>
+                    <span class="songlistplay"> <span class="timestamp">03:54 <i id="5" class="far songItemPlay fa-play-circle"></i></span></span>
+
+                </div>
+                
+
+            </div>
+
+        </div>
+        <div class="songBanner"></div>
+
+    </div>
+    
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+        <div class="icons">
+            <i class="fas fa-3x fa-step-backward" id="previous"></i>
+            <i class="far fa-3x fa-play-circle" id="play"></i>
+            <i class="fas fa-3x fa-step-forward" id="next"></i>
+
+        </div>
+        <div class="songInfo">
+            <img src="playing.gif" width="50px"  alt="" id="gif"><span id="masterSongName">Deva Deva</span>
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/d0f99b9eff.js" crossorigin="anonymous"></script>
+
+
+</body>
+</html>
